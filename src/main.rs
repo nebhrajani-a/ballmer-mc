@@ -2,7 +2,6 @@ use rand::rngs::ThreadRng;
 use rand::Rng;
 use std::cmp::Ordering;
 
-#[derive(Debug)]
 struct Interviewer {
     number: i32,
     balance: i64,
