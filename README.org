@@ -1,4 +1,4 @@
-* Monte-Carlo Implementation of [[https://www.youtube.com/watch?v=svCYbkS0Sjk][Steve Ballmer's Binary Search Interview Question]]
+* Monte-Carlo Sim of [[https://www.youtube.com/watch?v=svCYbkS0Sjk][Steve Ballmer's Interview Question]]
 
 Video transcript:
 
@@ -11,4 +11,5 @@ pay me a buck, you pay me two, you pay me three. And the question is,
 "do you want to play or not?"
 #+end_quote
 
-This Rust program computes the expected value of the game.
+This Rust program computes the expected value of the game, assuming
+that the interviewer's number is sampled uniformly.
