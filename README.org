@@ -1,0 +1,14 @@
+* Monte-Carlo Implementation of [[https://www.youtube.com/watch?v=svCYbkS0Sjk][Steve Ballmer's Binary Search Interview Question]]
+
+Video transcript:
+
+#+begin_quote
+I'm thinking of a number between one and a hundred. You can guess;
+after each guess I'll tell you [whether your guess is] high or low.
+You get it [on] the first guess, I'll give you five bucks, [you get it on
+the second guess] four bucks, three bucks, two [bucks], one, zero, you
+pay me a buck, you pay me two, you pay me three. And the question is,
+"do you want to play or not?"
+#+end_quote
+
+This Rust program computes the expected value of the game.
